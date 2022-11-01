@@ -1,0 +1,32 @@
+/* Question 1 */
+.side {
+  display: flex;
+}
+.side-by-side {
+  width: 120px;
+  height: 70px;
+  background-color: black;
+  margin: 10px;
+}
+
+/* Question 2 */
+.gone {
+  display: none;
+  background-color: lightgrey;
+  color: grey;
+  font-size: 30px;
+  width: 100px;
+}
+.without{
+  width: 100px;
+  height: 40px;
+  background-color:  orange;
+  border: 2px solid blue;
+  border-radius: 40%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.layoutExamplesWrapper > a {
+  display: block;
+}
